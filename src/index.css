@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input, button {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #root {
+  height: 100%;
+  text-align: center;
+}
+
+::placeholder { 
+  color: #cccccc !important;
+  opacity: 1;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  color: #cccccc !important;
+  font-weight: 300;
+}
+
+::-ms-input-placeholder {
+  color: #cccccc !important;
+  font-weight: 300;
+}
+
+input:focus, .chakra-select__wrapper > select:active{
+  outline:0;
+}
+
+.chakra-select__wrapper > select {
+  appearance: none;
+  padding: 0;
+  border: none;
+}
+
+.chakra-select__icon-wrapper {
+  display: none;
+}
